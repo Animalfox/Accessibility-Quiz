@@ -69,8 +69,8 @@ main {
 
 section {
   width: 80%;
+  margin: 0 auto 10px auto;
   max-width: 600px;
-  margin: 0 auto 10px;
 }
 
 h1,
@@ -80,6 +80,8 @@ h2 {
 
 h2 {
   border-bottom: 4px solid #dfdfe2;
+  margin-top: 0;
+  padding-top: 60px;
 }
 
 p::before {
