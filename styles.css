@@ -10,6 +10,10 @@ header {
   height: 50px;
   background-color: #1b1b32;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 #logo {
@@ -35,16 +39,11 @@ nav > ul {
   justify-content: space-evenly;
 }
 
-nav li {
+nav > ul > li {
   color: #dfdfe2;
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
-}
-
-li > a {
-  color: white;
-  text-decoration: none;
 }
 
 nav > ul > li:hover {
@@ -53,9 +52,14 @@ nav > ul > li:hover {
   cursor: pointer;
 }
 
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1,
 h2 {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, Tahoma;
 }
 
 h2 {
