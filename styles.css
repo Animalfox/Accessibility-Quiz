@@ -42,8 +42,15 @@ nav li {
   display: block;
 }
 
-li a {
+li > a {
   color: white;
+  text-decoration: none;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
 }
 
 h1,
